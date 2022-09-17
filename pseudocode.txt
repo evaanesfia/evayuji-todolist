@@ -1,0 +1,14 @@
+READ AND WRITE "tampilan awal to do list" with string
+READ AND WRITE "menambahkan tampilan mengisi to do list"
+STORE "selesai mengisi to do list?" with string
+STORE "menampilkan hasil pengisian to do list"
+IF "selesai mengisi to do list"
+   PRINT "menampilkan hasil pengisian to do list"
+ELSE 
+   PRINT "menambahkan tampilan mengisi to do list"
+STORE "simpan daftar hasil pengisian to do list?"
+IF "simpan daftar hasil pengisian to do list"
+   PRINT "menampilkan daftar to do list yang telah disimpan"
+ELSE 
+   WHILE not "menampilkan daftar-daftar to do list yang telah disimpan"
+   DO "tampilan awal to do list"
